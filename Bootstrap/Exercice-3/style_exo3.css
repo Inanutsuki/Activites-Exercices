@@ -1,0 +1,19 @@
+.form-control {
+    border: solid 1px white;
+}
+
+.btn {
+    border: solid 1px white;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.dropdown-item:hover {
+    background-color: orange;
+}
+
+.col-search {
+    padding-left: 0;
+}
