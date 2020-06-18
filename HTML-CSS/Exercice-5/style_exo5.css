@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "buffied";
+    src: url(../Exercice-5/fonts/BUFFIED_.TTF);
+}
+
+@font-face {
+    font-family: "pricedown";
+    src: url(../Exercice-5/fonts/pricedown\ bl.ttf);
+}
+
+@font-face {
+    font-family: "starjedi";
+    src: url(../Exercice-5/fonts/Starjedi.ttf);
+}
+
+.buffi {
+    font-family: "buffied";
+}
+
+.gta {
+    font-family: "pricedown";
+}
+
+.jedi {
+    font-family: "starjedi";
+}
+
+h1 {
+    text-transform: uppercase;
+}

@@ -1,0 +1,61 @@
+html, body, div, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.body {
+    width: 100%;
+    min-width: 210px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange, .red {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .green {
+        display: none;
+    }
+
+    .orange {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .orange {
+        display: none;
+    }
+    
+    .red {
+        display: block;
+    }
+}

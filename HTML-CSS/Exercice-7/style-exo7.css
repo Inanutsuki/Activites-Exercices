@@ -1,0 +1,40 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motherbox {
+    width: 300px;
+    height: 150px;
+}
+
+
+
+.box {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    animation: move 8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0%   {background-color:#A62639; left:0px; top:0px;}
+    25%  {background-color:#DB324D; left:0; top:100px;}
+    50%  {background-color:#511C29; left:100px; top:100px;}
+    75%  {background-color:#56494E; left:100px; top:0px;}
+    100% {background-color:#A62639; left:0px; top:0px;}
+}
