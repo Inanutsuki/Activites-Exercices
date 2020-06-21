@@ -1,11 +1,9 @@
 .container {
   height: 100vh;
-  border: solid 1px black;
 }
 
 .row {
-  height: 50vh;
-  border: solid 1px red;
+  height: 100vh;
   justify-content: center;
   align-items: center;
 }
