@@ -1,6 +1,5 @@
 $( "#showToast" ).click(function() {
     $('.toast').toast('show'); 
-
   });
 
   function RedirectionJavascript(){
