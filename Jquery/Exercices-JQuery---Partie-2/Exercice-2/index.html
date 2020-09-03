@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 2</title>
+</head>
+
+<body>
+    <p>Veuillez renseigner vos 5 dernières notes.</p>
+    <form action="" method="get" id="form">
+        <div>
+            <label for="note">Première note</label>
+            <input type="number" name="premiere-note">
+        </div>
+        <div>
+            <label for="note">Deuxième note</label>
+            <input type="number" name="deuxieme-note">
+        </div>
+        <div>
+            <label for="note">Troisième note</label>
+            <input type="number" name="troisieme-note">
+        </div>
+        <div>
+            <label for="note">Quatrième note</label>
+            <input type="number" name="quatrieme-note">
+        </div>
+        <div>
+            <label for="note">Cinquième note</label>
+            <input type="number" name="cinquieme-note">
+        </div>
+        <button type="submit" id="submit">Calculer</button>
+    </form>
+    <p id='resultat'>Votre moyenne est de <span id="moyenne"></span> et c'est <span id="appreciation"></span>.</p>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>

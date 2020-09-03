@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice</title>
+</head>
+
+<body>
+    <form id="form">
+        <div>
+            <label for="first-name">Votre prénom : </label>
+            <input type="text" id="first-name" required>
+        </div>
+        <div>
+            <label for="last-name">Votre nom : </label>
+            <input type="text" id="last-name" required>
+        </div>
+        <div>
+            <label for="birthday">Votre date de naissance : </label>
+            <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <div>
+            <label for="city-birth">Votre lieu de naissance : </label>
+            <input type="text" id="city-birth" name="city-birth" required>
+        </div>
+        <div>
+            <label for="job">Votre emploie : </label>
+            <input type="text" id="job" name="job" required>
+        </div>
+        <div>
+            <label for="society">Votre société : </label>
+            <input type="text" id="society" name="society" required>
+        </div>
+        <input type="submit" id="submit">
+    </form>
+    <h2>Votre histoire : </h2>
+    <p id="story">Bonjour je m'appel(le) <span class="first-name"></span> <span class="last-name"></span> je suis né(e) le <span class="birthday"></span> à <span class="city-birth"></span>. J'occupe le poste de <span class="job"></span> dans <span class="society"></span>.</p>
+    <script src="jquery-3.2.1.js"> </script>
+    <script src="jquery.js"></script>
+</body>
+
+</html>
